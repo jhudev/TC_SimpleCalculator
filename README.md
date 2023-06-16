@@ -41,11 +41,26 @@ compA.root(3)
 compA.value #< output: 3
 ```
 
+Examples of all numeric operations
+```python
+compA = Calculator(100)
+compA.add(25) #< Adds 25 to 100, total = 125
+compA.subtract(15) #< Subtracts 15 to 100, total = 85
+compA.multiply(3) #< Multipies 100 by 3, total = 300
+compA.divide(5) #< Divides 100 by 5, total = 20
+compA.root(2) #< Square root of 100, total = 10
+
+```
+
+
 ## Setting and resetting the current value
 
 When creating an instance, the user can set the starting value (otherwise, default is 0).
 
 ```python
+compA = Calculator()
+compA.value #< output: 0
+
 compA = Calculator(5)
 compA.value #< output: 5
 ```
