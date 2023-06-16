@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+mycalculator/__init__.py
+mycalculator/calculator.py
+mycalculator.egg-info/PKG-INFO
+mycalculator.egg-info/SOURCES.txt
+mycalculator.egg-info/dependency_links.txt
+mycalculator.egg-info/top_level.txt
+tests/__init__.py
+tests/test_basic.py
